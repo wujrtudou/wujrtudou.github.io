@@ -12,7 +12,7 @@ title                    : "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://wujrtudou.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -21,35 +21,35 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "jinranwu.png"
+  name             : "Jinran Wu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "A researcher in Applied Statistics and Data Science"
+  location         : "Brisbane, Australia"
+  employer         : "Australian Catholic University"
+  URI              : "https://www.acu.edu.au/research-and-enterprise/our-people/jinran-ryan-wu"
+  email            : "wujrtudou@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com.hk/citations?user=UUd03r8AAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-2388-3614"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  pubmed           : # URL
+  researchgate     : "https://www.researchgate.net/profile/Jinran-Wu-2"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57216781696"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "wujrtudou"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -130,7 +130,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &JinranWu
 facebook:
   username               :
   app_id                 :
