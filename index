@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jinran Wu | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9fafb;
+      color: #111827;
+    }
+    header {
+      background: #111827;
+      color: #f9fafb;
+      padding: 1rem 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .nav {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-title {
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+    .nav-links a {
+      color: #e5e7eb;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .nav-links a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+    .nav-links a.active {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto 3rem;
+      padding: 0 1rem;
+    }
+    h1, h2 {
+      color: #111827;
+      margin-top: 0;
+    }
+    .tagline {
+      font-size: 1.05rem;
+      color: #374151;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(15,23,42,0.08);
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+    footer {
+      border-top: 1px solid #e5e7eb;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #6b7280;
+      background: #f9fafb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="nav-title">Jinran Wu</div>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="card">
+      <h1>Hi, I'm Jinran Wu 👋</h1>
+      <p class="tagline">
+        Research Fellow in Statistical Learning & Forecasting at the University of Queensland.
+      </p>
+      <p>
+        I work on robust statistical learning and semi-supervised inference under complex data
+        conditions, with applications in energy systems, environmental modelling, and
+        geosciences.
+      </p>
+      <p>
+        Currently, I am a Research Fellow at the School of Mathematics and Physics, The University of
+        Queensland, working with Professor Geoffrey J. McLachlan in Brisbane, Australia.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Statistical learning under complex data conditions: semi-supervised learning, informative missingness, mixture models, robust estimation.</li>
+        <li>Computational statistics and optimisation: high-dimensional and non-convex optimisation, stochastic and iterative algorithms, swarm-based methods.</li>
+        <li>Time-series and forecasting: probabilistic forecasting in energy, environmental, and socio-economic systems; causal mechanisms in dynamical systems.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Selected Topics</h2>
+      <ul>
+        <li>Support vector regression with automatic hyperparameter selection and heterogeneous variances.</li>
+        <li>Semi-supervised learning in finite mixture models with mixed missingness mechanisms.</li>
+        <li>Robust regression and deep learning models for power load and environmental forecasting.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Jinran Wu · Hosted on GitHub Pages
+  </footer>
+</body>
+</html>
