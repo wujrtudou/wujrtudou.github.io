@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jinran Wu | Research</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9fafb;
+      color: #111827;
+    }
+    header {
+      background: #111827;
+      color: #f9fafb;
+      padding: 1rem 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .nav {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-title {
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+    .nav-links a {
+      color: #e5e7eb;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .nav-links a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+    .nav-links a.active {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto 3rem;
+      padding: 0 1rem;
+    }
+    h1, h2, h3 {
+      color: #111827;
+      margin-top: 0;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(15,23,42,0.08);
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="nav-title">Jinran Wu</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="card">
+      <h1>Research</h1>
+      <p>
+        My research lies at the intersection of statistical learning, semi-supervised inference,
+        and computational statistics, often motivated by applications in energy systems, climate
+        and environmental science, and engineering.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>1. Statistical Learning under Complex Data Conditions</h2>
+      <ul>
+        <li>Semi-supervised learning with partially labelled and unlabelled data.</li>
+        <li>Informative and favourable missingness mechanisms in mixture models.</li>
+        <li>Robust estimation for heavy-tailed noise and contaminated observations.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>2. Computational Statistics & Optimisation</h2>
+      <ul>
+        <li>Efficient optimisation for high-dimensional and non-convex statistical models.</li>
+        <li>Stochastic, iterative, and evolutionary optimisation algorithms.</li>
+        <li>Swarm-based meta-heuristics for model training and hyperparameter tuning.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. Time-Series, Forecasting & Causal Inference</h2>
+      <ul>
+        <li>Deterministic and probabilistic forecasting for power systems and energy demand.</li>
+        <li>Hybrid statistical–machine learning models for environmental and hydrological series.</li>
+        <li>Causal mechanisms and intervention effects in dynamical systems.</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
